@@ -11,3 +11,9 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.container {
+  height: 100vh;
+  background-color: lavender;
+  text-align: center;
+}
