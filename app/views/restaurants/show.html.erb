@@ -6,7 +6,7 @@
 <p>Phone number: <%= @restaurant.phone_number %></p>
 
 <h5><%= link_to "Add a review", new_restaurant_review_path(@restaurant) %></h5>
-<div id="reviews">
+<div id="reviews">v
   <h4>Reviews</h4>
   <ul>
     <% @restaurant.reviews.each do |review| %>
@@ -17,3 +17,4 @@
     <% end %>
   </ul>
 </div>
+

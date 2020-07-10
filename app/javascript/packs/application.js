@@ -14,3 +14,9 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+const reviews = document.getElementById("reviews");
+
+console.log(reviews);
+
+// style
