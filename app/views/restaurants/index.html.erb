@@ -2,11 +2,9 @@
   <h1>Restaurants</h1>
 </div>
 <div id="resty-list">
-  <ul>
     <% @restaurants.each do |resty| %>
-      <li>
+      <div class="card">
         <%= link_to resty.name, restaurant_path(resty) %>
-      </li>
+      </div>
     <% end %>
-  </ul>
 </div>
